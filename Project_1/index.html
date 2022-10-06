@@ -3,9 +3,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/c638960eab.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <nav class="picture">
+        <div class="w3image"></div>
+    </nav>
+    <nav id="MySidebar" class="Sidebar">
+        <a href="javascript:void(0)" class="Icon-close font-color-gray" onclick="closeNav()" style="padding-top: 0;"><i class="fa fa-remove"></i></a>
+        <a href="#" onclick="closeNav()">Home</a>
+        <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+    </nav>
+    <nav class="Icon-sidebar font-color-gray" onclick="openNav()">
+        <i class="fa fa-bars"></i>
+    </nav>
+    <div class="main">
+        <header class="font-alignment-header align-center" id="home">
+            <h1 style="font-size:64px!important">Jane Doe</h1>
+            <p>Photographer and Web Designer.</p>
+            <img src="https://www.w3schools.com/w3images/profile_girl.jpg" class="image-size image-round image-dp">
+            <button class="button bg-color">
+                <i class="fa fa-download" style="margin-right: 5px;"></i>Download Resume
+            </button>
+        </header>
+
+        <div class="spacing-paragraph-large" id="portfolio">
+            <h2 class="border font-color-gray">My Portfolio</h2>
+
+            <div class="display-img">
+                <div style="margin-right: 1%;">
+                    <img src="https://www.w3schools.com/w3images/wedding.jpg">
+                    <img src="https://www.w3schools.com/w3images/rocks.jpg">
+                    <img src="https://www.w3schools.com/w3images/sailboat.jpg">
+                </div>
+                <div style="margin-left: 1%;">
+                    <img src="https://www.w3schools.com/w3images/underwater.jpg">
+                    <img src="https://www.w3schools.com/w3images/chef.jpg">
+                    <img src="https://www.w3schools.com/w3images/wedding.jpg">
+                    <img src="https://www.w3schools.com/w3images/p6.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="spacing-paragraph-large" id="about">
+            <h2 class="border font-color-gray">About</h2>
+            <p class="font-color-gray" style="margin-top: 15px;">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h3 class="font-color-gray spacing-paragraph">My Skills</h3>
+            <p class="font-color-gray"  style="padding-bottom: 15px;">P h o t o g r a p h y</p>
+            <div class="bg-color"><div class="align-center bg-color-gray font-color-white" style="width: 95%;">95%</div></div>
+            <p class="font-color-gray"  style="padding: 15px 0 15px;">W e b  D e s i g n</p>
+            <div class="bg-color"><div class="align-center bg-color-gray font-color-white" style="width: 85%;">85%</div></div>
+            <p class="font-color-gray"  style="padding: 15px 0 15px;">P h o t o s h o p</p>
+            <div class="bg-color"><div class="align-center bg-color-gray font-color-white" style="width: 80%;">80%</div></div>
+            <div class="bg-color-gray font-color-white align-center" style="margin-top: 45px; display: flex; padding: 23px 0;">
+                <div style="width: 25%;"><h3>14+</h3><p>Partners</p></div>
+                <div style="width: 25%;"><h3>55+</h3><p>Projects Done</p></div>
+                <div style="width: 25%;"><h3>89+</h3><p>Happy Clients</p></div>
+                <div style="width: 25%;"><h3>150+</h3><p>Meetings</p></div>
+            </div>
+            <button class="button bg-color">
+                <i class="fa fa-download" style="margin-right: 5px;"></i>Download Resume
+            </button>
+            <h3 class="font-color-gray spacing-paragraph">My Reputation</h3>
+            <div class="dp-inline-block">
+                <div class="dp-flex">
+                    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg">
+                    <div>
+                        <p class="font-color-gray"><span class="font-color-black" style="font-size: 17px;">Chandler Bing.</span> Web Designer.</p>
+                        <p class="font-color-gray">Jane Doe is just awesome. I am so happy to have met her!</p>
+                    </div>
+                </div>
+                <div class="dp-flex">
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg">
+                    <div>
+                        <p class="font-color-gray"><span class="font-color-black" style="font-size: 17px;">Chris Fox.</span> CEO at Mighty Schools.</p>
+                        <p class="font-color-gray">Jane Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+                <div class="dp-flex">
+                    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg">
+                    <div>
+                        <p class="font-color-gray"><span class="font-color-black" style="font-size: 17px;">Rebecca Flex.</span> CEO at Company.</p>
+                        <p class="font-color-gray">No one is better than Jane Doe.</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="font-color-gray spacing-paragraph">My Price</h3>
+            <div class="Price align-center">
+                <div style="margin-right: 1%;">
+                    <ul>
+                        <li class="Padding-32 font-color-white bg-color-gray">Basic</li>
+                        <li class="Padding-16 font-color-gray">Web Design</li>
+                        <li class="Padding-16 font-color-gray">Photography</li>
+                        <li class="Padding-16 font-color-gray">5GB Storage</li>
+                        <li class="Padding-16 font-color-gray">Mail Support</li>
+                        <li class="Padding-16 font-color-gray">
+                            <h2>$ 10</h2>
+                            <p>per month</p>
+                        </li>
+                        <li class="Padding-16 bg-color">
+                            <button class="bg-color-white">
+                                Sign Up
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div style="margin-left: 1%;">
+                    <ul>
+                        <li class="Padding-32 font-color-white bg-color-black">Pro</li>
+                        <li class="Padding-16 font-color-gray">Web Design</li>
+                        <li class="Padding-16 font-color-gray">Photography</li>
+                        <li class="Padding-16 font-color-gray">50GB Storage</li>
+                        <li class="Padding-16 font-color-gray">Endless Support</li>
+                        <li class="Padding-16 font-color-gray">
+                            <h2>$ 25</h2>
+                            <p>per month</p>
+                        </li>
+                        <li class="Padding-16 bg-color">
+                            <button class="bg-color-white">
+                                Sign Up
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacing-paragraph-large" id="contact">
+            <h2 class="border font-color-gray">Contact Me</h2>
+            <p class="Padding-23 font-color-gray"><i class="fa fa-map-marker align-center"></i>Chicago, US</p>
+            <p class="Padding-23 font-color-gray"><i class="fa fa-phone align-center"></i>Phone: +00 151515</p>
+            <p class="Padding-23 font-color-gray"><i class="fa fa-envelope align-center"></i>Email: mail@mail.com</p>
+            <img src="https://www.w3schools.com/w3images/map.jpg" style="width: 100%; margin: 40px 0;">
+            <p>Lets get in touch. Send me a message:</p>
+            <form action="/action_page.php" target="_blank">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Subject" required>
+                <input type="text" placeholder="Message" required>
+                <button class="button bg-color">
+                    <i class="fa fa-paper-plane" style="margin-right: 5px;"></i>Download Resume
+                </button>
+            </form>
+        </div>
+    </div>
+    <footer class="bg-color footer align-center">
+        <div>
+            <i class="fa fa-facebook-official hover-opacity"></i>
+            <i class="fa fa-instagram hover-opacity"></i>
+            <i class="fa fa-snapchat hover-opacity"></i>
+            <i class="fa fa-pinterest-p hover-opacity"></i>
+            <i class="fa fa-twitter hover-opacity"></i>
+            <i class="fa fa-linkedin hover-opacity"></i>
+        </div>
+        <p class="font-color-gray font-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+        <button class="bg-color-gray button font-small font-color-white" style="border-radius: 50px; padding: 10px 20px!important;">Star now</button>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById('MySidebar').style.width = "60%";
+        }
+        function closeNav() {
+            document.getElementById('MySidebar').style.width = "0";
+        }
+    </script>
 </body>
 </html>
