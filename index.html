@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/c638960eab.js" crossorigin="anonymous"></script>
+    <title>Project_1</title>
+</head>
+<body>
+    <nav id="Form" class="MyForm">
+        <a href="javascript:void(0)" onclick="close()"><i class="fa fa-remove"></i></a>
+        <form>
+            <input type="text" placeholder="Họ và tên" required>
+            <input type="email" placeholder="Nhập Email" required>
+            <input type="phone" placeholder="Nhập Số điện thoại" required>
+            <input type="message" placeholder="Để lại lời nhắn cho chúng tôi" required style="height: 150px;">
+            <button class="font-color-white" style="background-color: #3d9be9; border-radius: 4px; width: 96%; margin: 10px 2%;  padding: 8px;">
+                Gửi đi
+            </button>
+        </form>
+    </nav>
+    <nav class="font-color-white" style="width: 100%;">
+        <p onclick="open()" style="background-color: #3d9be9; border-radius: 4px; padding: 10px 35px; width: 100px; margin: auto;" >CLICK NOW</p>
+    </nav>
+    <div>
+        <header class="padding-20-2 align-center" style="background-color: #a4bbc3; display: block;">
+            <img src="https://w.ladicdn.com/uploads/images/27712470-27a4-4059-8492-8c8071298cc3.png" alt="Ladipage">
+            <h2 class="font-color-white">Xưởng gỗ đặc biệt LDP</h2>
+            <p class="font-color">độc đáo. lạ. sáng tạo</p>
+            
+            <img src="https://w.ladicdn.com/uploads/images/79b51e48-1273-40e9-9a31-4cc4e3781a07.png" style="width: 100%;">
+        </header>
+
+    </div>
+    <script>
+        function open() {
+            document.getElementById("Form").style.width = "60%";
+            document.getElementById("Form").style.height = "400px";
+            document.getElementById("Form").style.display = "block";
+        }
+        function close() {
+            document.getElementById("Form").style.width = "0";
+            document.getElementById("Form").style.height = "0";
+            document.getElementById("Form").style.display = "none";
+        }
+    </script>
+</body>
+</html>
