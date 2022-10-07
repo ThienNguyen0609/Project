@@ -10,12 +10,12 @@
 <body>
     <nav id="MyForm" class="form">
         <a href="javascript:void(0)" onclick="closeForm()"><i class="fa fa-remove"></i></a>
-        <form>
+        <form style="width: 100%;">
             <input type="text" placeholder="Họ và tên" required>
             <input type="email" placeholder="Nhập Email" required>
             <input type="number" placeholder="Nhập Số điện thoại" required>
-            <input type="message" placeholder="Để lại lời nhắn cho chúng tôi" required style="height: 150px;">
-            <button class="font-color-white" style="background-color: #3d9be9; border-radius: 4px; width: 96%; margin: 10px 2%;  padding: 8px;">
+            <textarea name="message" style="height: 200px;" placeholder="Để lại lời nhắn cho chúng tôi"></textarea>
+            <button class="font-color-white" style="background-color: #3d9be9; border-radius: 4px; width: 86%; margin: 5px 7%;  padding: 10px;">
                 Gửi đi
             </button>
         </form>
@@ -36,12 +36,12 @@
     </div>
     <script>
         function openForm() {
-            document.getElementById('MyForm').style.width = "60%";
-            document.getElementById('MyForm').style.height = "500px";
+            document.getElementById('MyForm').style.width = "46%";
+            document.getElementById('MyForm').style.height = "400px";
         }
         function closeForm() {
             document.getElementById('MyForm').style.width = "0";
-            document.getElementById('MyForm').style.height = "0";
+            document.getElementById('MyForm').style.height = "0"; 
         }
     </script>
 </body>
