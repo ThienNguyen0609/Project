@@ -1,5 +1,23 @@
 * {margin: 0; padding: 0;}
+body {font-family: Roboto,sans-serif;}
+
+header img {width: 150px;}
+
+.MyForm {
+    position: fixed;
+    height: 0;
+    width: 0;
+    top: 10%;
+    left: 20%;
+    z-index: 1;
+    background-color: #fff;
+    overflow: hidden;
+}
+.MyForm input {width: 96%; margin: 10px 2%;}
 
 
+button {border: none; cursor: pointer;}
+.font-color {color: #37474f;}
+.font-color-white {color: #fff;}
 .align-center {text-align: center;}
 .padding-20-2 {padding: 0 20%;}
