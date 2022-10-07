@@ -8,7 +8,7 @@
     <title>Project_1</title>
 </head>
 <body>
-    <nav id="Form" class="MyForm">
+    <nav id="MyForm" class="Form">
         <a href="javascript:void(0)" onclick="close()"><i class="fa fa-remove"></i></a>
         <form>
             <input type="text" placeholder="Họ và tên" required>
@@ -35,13 +35,13 @@
     </div>
     <script>
         function open() {
-            document.getElementById('Form').style.width = "60%";
-            document.getElementById('Form').style.height = "400px";
+            document.getElementById('MyForm').style.width = "60%";
+            document.getElementById('MyForm').style.height = "400px";
         }
         function close() {
-            document.getElementById('Form').style.width = "0";
-            document.getElementById('Form').style.height = "0";
-            document.getElementById('Form').style.display = "none";
+            document.getElementById('MyForm').style.width = "0";
+            document.getElementById('MyForm').style.height = "0";
+            document.getElementById('MyForm').style.display = "none";
         }
     </script>
 </body>
