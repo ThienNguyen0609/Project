@@ -8,12 +8,13 @@ header img {width: 150px;}
     height: 0;
     width: 0;
     top: 10%;
-    left: 20%;
+    left: 27%;
     z-index: 1;
     background-color: #fff;
     overflow: hidden;
 }
-.Form input {width: 96%; margin: 10px 2%;}
+/*.form a {display: none;}*/
+.form input, textarea {width: 86%; margin: 5px 7%; padding: 5px; border: 1px solid #e8e8e8;}
 
 
 button {border: none; cursor: pointer;}
