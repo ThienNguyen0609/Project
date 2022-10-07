@@ -3,7 +3,7 @@ body {font-family: Roboto,sans-serif;}
 
 header img {width: 150px;}
 
-.MyForm {
+.Form {
     position: fixed;
     height: 0;
     width: 0;
@@ -13,7 +13,7 @@ header img {width: 150px;}
     background-color: #fff;
     overflow: hidden;
 }
-.MyForm input {width: 96%; margin: 10px 2%;}
+.Form input {width: 96%; margin: 10px 2%;}
 
 
 button {border: none; cursor: pointer;}
