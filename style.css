@@ -21,4 +21,5 @@ button {border: none; cursor: pointer;}
 .font-color {color: #37474f;}
 .font-color-white {color: #fff;}
 .align-center {text-align: center;}
-.padding-20-2 {padding: 0 20%;}
+.padding-20-2 {padding: 50px 20%;}
+.padding-top-50 {padding-top: 50px;}
