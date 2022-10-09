@@ -1,7 +1,5 @@
 * {margin: 0; padding: 0;}
-body {font-family: Roboto,sans-serif;}
-
-header img {width: 150px;}
+body {line-height: 1.5;}
 
 .form {
     position: fixed;
@@ -13,13 +11,119 @@ header img {width: 150px;}
     background-color: #fff;
     overflow: hidden;
 }
-/*.form a {display: none;}*/
 .form input, textarea {width: 86%; margin: 5px 7%; padding: 5px; border: 1px solid #e8e8e8;}
 
+/*         background-image             */
+.bg-image {background-repeat: no-repeat; background-size: cover;}
+.bg-image-1 {
+    background-image: url(https://w.ladicdn.com/uploads/images/79b51e48-1273-40e9-9a31-4cc4e3781a07.png);
+    background-position: center;
+    height: 260px;
+    width: 450px;
+    margin: 15px auto;
+}
+.bg-image-2 {
+    background-image: url(https://w.ladicdn.com/uploads/images/44351b4d-aefd-4580-85f8-c8187a91c8ff.png);
+    background-position: center;
+    height: 200px;
+    margin: auto;
+}
+.bg-image-3 {
+    background-image: url(https://w.ladicdn.com/uploads/images/94d49b97-456d-4359-a263-b037e00bf03e.jpg);
+    background-position: center;
+    height: 146px;
+    margin: auto;
+    width: 144px;
+}
+.bg-image-4 {
+    background-image: url(https://w.ladicdn.com/uploads/images/6ef0c8a1-4a65-4723-a69c-23ee01348873.jpg);
+    background-position: center;
+    height: 146px;
+    margin: auto;
+    width: 250px;
+}
+.bg-image-5 {
+    background-image: url(https://w.ladicdn.com/uploads/images/67c721e0-8e23-4f3c-a0ae-9a160467193e.jpg);
+    background-position: center;
+    height: 146px;
+    margin: auto;
+    width: 141px;
+}
+.bg-image-6 {
+    background-image: url(https://w.ladicdn.com/s800x500/uploads/images/092b973c-ccdb-4c09-b701-f80a67ddc9e7.jpg);
+    background-position: right;
+    width: 33%;
+}
+.bg-image-7 {
+    background-image: url(https://w.ladicdn.com/s800x500/uploads/images/18ab7b0a-e22c-4187-817a-add754aaec16.jpg);
+    background-position: center;
+}
+.bg-image-8 {
+    background-image: url(https://w.ladicdn.com/s800x500/uploads/images/023baa94-ba62-43f0-9148-1bc5b875894c.jpg);
+    background-position: left;
+}
+.bg-image-9 {
+    background-image: url(https://w.ladicdn.com/s800x500/uploads/images/d43c4d80-f52e-4166-862a-58d6176cd854.jpg);
+    background-position: right;
+}
+.bg-image-10 {
+    background-image: url(https://w.ladicdn.com/s800x500/uploads/images/f02d2d11-82d1-4e4f-b7a6-efb2d7fd04e1.jpg);
+    background-position: center;
+}
+.bg-image-11 {
+    background-image: url(https://w.ladicdn.com/s800x500/uploads/images/820e6b35-8da7-45fa-b23d-c2384c702a03.jpg);
+    background-position: left;
+}
+.bg-image-12 {
+    background-image: url(https://w.ladicdn.com/s300x300/uploads/images/563949f5-8c9f-4a52-a211-98ff8a6a10ed.jpg);
+    background-position: top center;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #eeeeee;
+    border-radius: 50%;
+}
+.bg-image-13 {
+    background-image: url(https://static.ladipage.net/uploads/images/a5f2923b-3651-4f01-ba8b-da0354da8c9c.png);
+    height: 43px;
+    width: 156px;
+}
 
+
+/*                Main                 */
+.dp-flex {display: flex;}
+
+.Communication li {width: 188px; display: flex; margin: auto;}
+.Communication i { border-radius: 50%; border: 1px solid #fff; font-size: 20px; padding: 10px; width: 20px;  margin-right: 15px;}
+.Communication p, .reason {text-decoration: underline; text-align: left;}
+.reason i {font-size: 40px; color: #546e7a;}
+.reason p {margin-top: 7px;}
+.reason p:nth-child(2) {font-size: 18px;}
+.reason p:nth-child(3) {color: #616179;}
+
+.introduce div {width: 50%;}
+
+.produce li {width: 32%;}
+.produce p {margin-top: 10px;}
+.produce h3 {border: 1px solid #546e7a; width: 160px; margin: 15px auto; border-radius: 15px;}
+.produce p:nth-child(3) {color: #61616b;}
+
+.Picture {margin-bottom: 1px;}
+.Picture div {width: 33.3%; height: 250px;}
+.Picture div:nth-child(2) {margin: auto;}
+
+footer i {color: #607d8b; margin-right: 10px;}
+
+li {list-style-type: none;}
 button {border: none; cursor: pointer;}
+.bg-color {background-color: #465156;}
+.font-size-21 {font-size: 21px;}
+.font-size-15 {font-size: 15px;}
+.font-size-13 {font-size: 13px;}
 .font-color {color: #37474f;}
+.font-color-61617a {color: #61617a;}
 .font-color-white {color: #fff;}
 .align-center {text-align: center;}
-.padding-20-2 {padding: 50px 20%;}
-.padding-top-50 {padding-top: 50px;}
+.padding-12-2 {padding: 50px 12%;}
+.padding-top-50 {padding-top: 40px;}
+
