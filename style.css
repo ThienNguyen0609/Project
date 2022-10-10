@@ -1,11 +1,17 @@
 * {margin: 0; padding: 0;}
 body {line-height: 1.5;}
 
+.Nav {
+    position: fixed; 
+    overflow: hidden;
+    background: rgba(82, 93, 97, 0.8);
+}
+.Nav i {position: absolute; font-size: 30px; right: 20px; top: 15px; color: #fff;}
 .form {
     position: fixed;
     height: 0;
     width: 0;
-    top: 10%;
+    top: 15%;
     left: 27%;
     z-index: 1;
     background-color: #fff;
@@ -86,7 +92,7 @@ body {line-height: 1.5;}
 .bg-image-13 {
     background-image: url(https://static.ladipage.net/uploads/images/a5f2923b-3651-4f01-ba8b-da0354da8c9c.png);
     height: 43px;
-    width: 156px;
+    width: 156px!important;
 }
 
 
@@ -96,12 +102,14 @@ body {line-height: 1.5;}
 .Communication li {width: 188px; display: flex; margin: auto;}
 .Communication i { border-radius: 50%; border: 1px solid #fff; font-size: 20px; padding: 10px; width: 20px;  margin-right: 15px;}
 .Communication p, .reason {text-decoration: underline; text-align: left;}
+
+.Gach-chan {border-bottom: 2px solid #61617a; width: 50px; margin-top: 20px;}
+
+.reason li {width: 23%; margin: auto;}
 .reason i {font-size: 40px; color: #546e7a;}
 .reason p {margin-top: 7px;}
 .reason p:nth-child(2) {font-size: 18px;}
 .reason p:nth-child(3) {color: #616179;}
-
-.introduce div {width: 50%;}
 
 .produce li {width: 32%;}
 .produce p {margin-top: 10px;}
@@ -126,4 +134,20 @@ button {border: none; cursor: pointer;}
 .align-center {text-align: center;}
 .padding-12-2 {padding: 50px 12%;}
 .padding-top-50 {padding-top: 40px;}
+
+@media (max-width: 1008px) {
+    .padding-12-2 {padding: 50px 2%;}
+    .introduce div:nth-child(1) {width: 100%!important; text-align: center;}
+    .introduce div:nth-child(2) {margin-top: 20px;}
+    .Gach-chan {margin: 20px auto!important;}
+}
+@media (max-width: 800px) {
+    .dp-flex {flex-direction: column;}
+    li {margin: 10px auto!important;}
+    .reason li {width: 50%;}
+    .Picture div {width: 100%; height: 300px;}
+    footer {text-align: center;}
+    footer div {width: 100%!important;}
+    .bg-image-13 {margin: auto;}
+}
 

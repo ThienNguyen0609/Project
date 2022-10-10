@@ -8,13 +8,15 @@
     <title>Project_1</title>
 </head>
 <body>
+    <nav id="MyNav" class="Nav" onclick="closeForm()">
+        <a href="javascript:void(0)"><i class="fa fa-remove"></i></a>
+    </nav>
     <nav id="MyForm" class="form">
-        <a href="javascript:void(0)" onclick="closeForm()"><i class="fa fa-remove"></i></a>
-        <form style="width: 100%;">
+        <form action="https://www.w3schools.com/css/css_background.asp" style="width: 100%; padding: 30px 0;">
             <input type="text" placeholder="Họ và tên" required>
             <input type="email" placeholder="Nhập Email" required>
             <input type="text" placeholder="Nhập Số điện thoại" required>
-            <textarea name="message" style="height: 200px;" placeholder="Để lại lời nhắn cho chúng tôi"></textarea>
+            <textarea name="message" style="height: 100px;" placeholder="Để lại lời nhắn cho chúng tôi"></textarea>
             <button class="font-color-white" style="background-color: #3d9be9; border-radius: 4px; width: 86%; margin: 5px 7%;  padding: 10px;">
                 Gửi đi
             </button>
@@ -50,11 +52,11 @@
             </ul>
         </header>
 
-        <div class="padding-12-2 dp-flex">
+        <div class="padding-12-2 dp-flex introduce">
             <div style="width: 40%;">
                 <h1>Giới thiệu LDP Furniture</h1>
                 <p class="font-size-15">Mô tả chung về dự án, sản phẩm, dịch vụ của bạn</p>
-                <div style="border-bottom: 2px solid #61617a; width: 50px; margin-top: 20px;"></div>
+                <div class="Gach-chan"></div>
                 <p class="font-size-15 font-color-61617a" style="margin-top: 20px;">Mô tả thông tin có giá trị, những điểm nổi bật, lời giới thiệu hấp dẫn về sản phẩm dịch vụ, giúp người xem dễ dàng tìm thấy nội dung của bạn trong kết quả tìm kiếm. Những mô tả được viết tốt kèm theo các từ khóa phù hợp có thể tăng lượt xem vì chúng giúp landingpage của bạn hiển thị tốt trong kết quả tìm kiếm.</p>
                 <p class="font-size-15 font-color-61617a" style="margin-top: 20px;">Mô tả thông tin có giá trị, những điểm nổi bật, lời giới thiệu hấp dẫn về sản phẩm dịch vụ, giúp người xem dễ dàng tìm thấy nội dung của bạn trong kết quả tìm kiếm. Những mô tả được viết tốt kèm theo các từ khóa phù hợp có thể tăng lượt xem vì chúng giúp landingpage của bạn hiển thị tốt trong kết quả tìm kiếm.</p>
             </div>
@@ -158,11 +160,15 @@
     <script>
         function openForm() {
             document.getElementById('MyForm').style.width = "46%";
-            document.getElementById('MyForm').style.height = "400px";
+            document.getElementById('MyForm').style.height = "330px";
+            document.getElementById('MyNav').style.width = "100%";
+            document.getElementById('MyNav').style.height = "100%";
         }
         function closeForm() {
             document.getElementById('MyForm').style.width = "0";
-            document.getElementById('MyForm').style.height = "0"; 
+            document.getElementById('MyForm').style.height = "0";
+            document.getElementById('MyNav').style.width = "0";
+            document.getElementById('MyNav').style.height = "0"; 
         }
     </script>
 </body>
