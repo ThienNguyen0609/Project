@@ -3,9 +3,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Project_3/main.js"></script>
     <title>Project_3</title>
 </head>
 <body>
-    
+    <p onclick="Myfunction()">cwnhbcw</p>
+    <P id="demo" onclick="Myfunction()">cnuidiw84u328r</P>
+    <p id="Name"></p>
+    <button onclick="this.innerHTML = Date()">ngay thang nam</button>
+
+    <button onclick="document.getElementById('date').innerHTML = Date()">ngay thang nawm</button>
+    <p id="date" class="background-color: black;"></p>
+
+
+
+
+    <script>
+        const person = {
+            firstName : "John",
+            lastName  : "Doe",
+            age     : 50,
+            eyeColor  : "blue"
+        };
+
+        document.getElementById("Name").innerHTML =
+        person.firstName + " is " + person.age + " years old.";
+    </script>
 </body>
 </html>
